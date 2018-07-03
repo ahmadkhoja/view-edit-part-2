@@ -1,0 +1,47 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 20px;
+    color: #333;
+    width: 50%;
+}
+.form-container{
+    margin-left: 10%;
+}
+input[type="text"],input[type="number"],select{
+    background-color: #f1f1f1;
+    padding: 2%;
+    border: none;
+    display: block;
+    outline: none;
+    color: #777;
+    width: 80%;
+}
+input[type="submit"]{
+    margin-bottom: 20px;
+    width: 84%;
+    padding: 2%;
+    border: none;
+    display: block;
+    outline: none;
+    color: #f1f1f1;
+}
+select{
+    width: 84%;    
+}
+.button{
+    padding: 20px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+}
+.save{
+    background-color: green;
+}
+.cancel{
+    background-color: red;
+}
